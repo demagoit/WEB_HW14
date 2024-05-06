@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p>Hi {{fullname}},</p>
+    <p>Please follow the link to reset your password at Contacts App</p>
+    <p>
+        <a href={{host}}api/auth/reset_pwd/{{token}}>
+            Reset password
+        </a>
+    </p>
+    <p>If you did not sign up for our service, please ignore that mail.</p>
+    <p>Thanks,</p>
+    <p>The Our Team</p>
+</body>
+
+</html>

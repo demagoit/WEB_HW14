@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Verify e-mail</title>
+</head>
+
+<body>
+    <p>Hi {{fullname}},</p>
+    <p>Please confirm your email for Contacts App</p>
+    <p>
+        <a href={{host}}api/auth/confirm_email/{{token}}>
+            Confirm
+        </a>
+    </p>
+    <p>If you did not sign up for our service, please ignore that mail.</p>
+    <p>Thanks,</p>
+    <p>The Our Team</p>
+</body>
+
+</html>
